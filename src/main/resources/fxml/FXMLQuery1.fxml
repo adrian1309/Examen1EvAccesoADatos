@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.FXMLQuery1Controller">
+   <children>
+      <Label layoutX="32.0" layoutY="32.0" text="QUERY 1">
+         <font>
+            <Font name="Algerian" size="36.0" />
+         </font></Label>
+      <ListView fx:id="lvStudents" onMouseClicked="#loadListSubjectsAndTeacher" layoutX="32.0" layoutY="100.0" prefHeight="259.0" prefWidth="256.0" />
+      <Label layoutX="32.0" layoutY="83.0" text="List of students. Select one:">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Label>
+      <ListView fx:id="lvSubjectsAndTeachers" layoutX="317.0" layoutY="100.0" prefHeight="259.0" prefWidth="256.0" />
+      <Label layoutX="317.0" layoutY="83.0" text="List of subjects with each teacher">
+         <font>
+            <Font name="Calibri Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
